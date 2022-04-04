@@ -4,14 +4,14 @@ import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
 
-export default function Index() {
+export default function About() {
   return (
     <Layout>
       <BasicMeta url={"/"} />
       <OpenGraphMeta url={"/"} />
       <TwitterCardMeta url={"/"} />
       <div className="container">
-      <div>
+        <div>
           <h1>
             Hi, I'm Jay<span className="fancy"> :D</span>
           </h1>
